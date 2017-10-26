@@ -8,7 +8,7 @@
 namespace Home\Controller;
 use Think\Controller;
 use Think\Model;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 /**
  * 用户控制器
  * Class UserController
@@ -53,6 +53,7 @@ class UserController extends Controller{
             $this->error('注册失败'/$model->getDbError());
         }
         $this->success('注册成功,请登录',U('login'));
+        // 可以用于打开html
 //        $this->display('xxx');
     }
 
@@ -79,6 +80,8 @@ class UserController extends Controller{
         session('user.username',$user['username']);
         //跳转首页
         $this->redirect('Index/index');
+        // 用于向移动端发送数据
+//        exit("啊哈哈哈哈");
     }
 
     /**
