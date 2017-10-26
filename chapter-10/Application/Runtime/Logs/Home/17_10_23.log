@@ -1,0 +1,917 @@
+[ 2017-10-23T09:30:16+08:00 ] ::1 /thinkphp-inaction/chapter-10/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005348s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (260): &lt;style type=&quot;text/css&quot;&gt;*{ padding: 0; margin: 0; } div{ padding: 4px 48px;} body{ background: #fff; font-family: &quot;微软雅黑&quot;; color: #333;font-size:24px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.8em; font-size: 36px } a,a:hover{color:blue;}&lt;/style&gt;&lt;div style=&quot;padding: 24px 48px;&quot;&gt; &lt;h1&gt;:)&lt;/h1&gt;&lt;p&gt;欢迎使用 &lt;b&gt;ThinkPHP&lt;/b&gt;！&lt;/p&gt;&lt;br/&gt;版本 V{$Think.version}&lt;/div&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://ad.topthink.com/Public/static/client.js&quot;&gt;&lt;/script&gt;&lt;thinkad id=&quot;ad_55e75dfae343f5a1&quot;&gt;&lt;/thinkad&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;http://tajs.qq.com/stats?sId=9347272&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt; D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Template.class.php 第 89 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005150s ]
+
+[ 2017-10-23T09:36:04+08:00 ] ::1 /thinkphp-inaction/chapter-10/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005097s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-23T09:36:57+08:00 ] ::1 /thinkphp-inaction/chapter-10/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005075s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan0','698828dc80fa936048e457b76e70a010','1508722617','1508722617') [ RunTime:0.0312s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan1','3ddb727a0cf0fe39ae4d521394592506','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan2','7f98ba1f8756679b4263edc8de988f22','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan3','83d6a6ae7f0a43ff09061846c4fe727d','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan4','41ab825c5bd8a17c1f6c489e81adfef1','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan5','0e1ebaee8d9b270bd846b1fa112f493f','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan6','f2c58d14cf7b1e4ddbca973641f07a2d','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan7','924cfbe1e0c677c3895a792507a00c68','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan8','dead13f44a693efa89c3bee03ae219c4','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan9','c1357efc3d00e9f2d07a312b64b37112','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan10','576cf1f22730ca502532a32fbb4db975','1508722617','1508722617') [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan11','48bc75224ed447479f2218a22a94f675','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan12','65cfb3aba22bfae7ce024ef66c9c22b7','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan13','5ac8b1f924ed2eb3b16fa005f11a8aea','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan14','d522dae76532df513f01b316884416ea','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan15','8de191735edad55c324e16ee5b5f891e','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan16','9984a76356e533c39768fea2ca96f429','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan17','42226ded302ea841561aad0f3a3181f6','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan18','6c1631be1f990ef7534a868e70944b59','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan19','0bdddf6ed82c8b7084446ed0588da3ab','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan20','0689f0140d313a265785bb09b2a557a6','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan21','43a2a0caaaee64ae813c4a08e9a7d413','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan22','d49dea6fb6eb763409f4df145a3a6926','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan23','665180462278cd9364f6ff4c7bd35795','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan24','30cfe2a11db78a6327d0317fe68e6c2e','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan25','aa7cd2688ec8c8ce41ab12ef373323d5','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan26','094210e8c08d70ffb9e30af9857cc75a','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan27','35e9fb2649cd301525903ee92e21aa77','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan28','9090ff3f2134b54705d40a29415e6214','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan29','6ad2cbc6f6022ac491265566a147fbd6','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan30','f33314ae90a10b8357df65941cabcd3b','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan31','b3b04564c50df468952fdf3571f99810','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan32','57aff0fa10b96de8f813c56b4f835646','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan33','25f59d79bf25412564ffc9e9fa3d4c71','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan34','5ccba35a09441b45d240a62f157a47e9','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan35','22704350244e20b75c113918a800964d','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan36','efbec5508f973cf6c940f8db239ed2db','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan37','b340dcea5b45d22233a39b441ece3ec0','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan38','3069cb4a59df9fc9f50d1dbf87a38641','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan39','52f01a96d826dc7cc4d036013252d30c','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan40','2c6e450a093357159e21051d196146ba','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan41','799c435c77cad407668f33fbc4e7f627','1508722617','1508722617') [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan42','01cf4e2e4cc6accd99dbb7e2a580245f','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan43','17fc59d785e4d7b82d3b6284689d660a','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan44','9efeec5534412fa0778b563b67fa7a41','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan45','690d914956175e98b726640280065208','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan46','421d9f135bd601f18867b40f84ad9554','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan47','89f04c4f6c274add8bf701159d7eb431','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan48','8222b8c0bf2654792f55cb227f1289f5','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan49','73638c93ad94e75af1f81eb52b17b8ad','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan50','bf749fc77d5e6524f762f20896c5abad','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan51','f264d88f1bebc8862b077a284246bf2e','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan52','5f6d2b3f6e8e7da6dcb5e9ffee58f830','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan53','93e6fcf3f405f6bb25458228e12ce890','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan54','a63897216eef6d60489453d2e376da9f','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan55','e2b30708c80bccccc46b0665289da54b','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan56','5f4fee64e9cc7b4b7e99a27e182973ae','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan57','505a9ed0c2eca7911a7d97409cbe3867','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan58','449a128521b12c4c9f231c4b66bc7a7a','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan59','555f26fe370aa85580e8ea631c3cb2b9','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan60','780154be434780f14e01d62a29f35d67','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan61','7fb8d8c75b3267947b167b4e74f7f957','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan62','42006b1f2b0305a93a3ccdea475b92cf','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan63','b0614348ec5fdd3a07f2686c756b5650','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan64','cd50c62abbf8ffcdf6bcec5ee3beeb68','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan65','dc6f7738bac1f589d16a0cc5d5c97445','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan66','faaefc1409978b167d0021be31514ff9','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan67','d4a639c75fe6161936dc05a2e99a07ec','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan68','e878c8b26631f13cb091a9597d3cb0f0','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan69','93fd7c89e6bcb570e933726e30766bf9','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan70','bf783370bbd3cf705aa18cf132d5b046','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan71','b4aecb493107747798ed60619ed9bad0','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan72','9a1f916615a0973bacc7d0a09356b99b','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan73','5dac48e5f12935ce0956f0e0a8297c19','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan74','3898e74066410d04f2fe7e82e9bcf9a2','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan75','c86328f8e4c0e7a06b868da68e9606ab','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan76','c0beeabfc171de934d7e217eb611834b','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan77','840141f2ad0dc62e632225d7210e7cc7','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan78','31bd8129f7ec9aa1e0c4e639d7bba9dc','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan79','d4ee0230143f4ed55e56f611d9fb286c','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan80','0563133cd8eaa686959c1d5fc7817d99','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan81','b54a1b05d44b2ae129fc6a84c87f85a3','1508722617','1508722617') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan82','6068afd776d5e58d77e3aa40d4725ca9','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan83','ec34cdd02eb95b05514ff4acad4bc4fb','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan84','0516012cbd87d9840d98a454b2738352','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan85','dc80d883b42496132fcdb81c084cd39e','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan86','0079a5f7b1b2a440178ea75874b7ede4','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan87','4cc5a2a96be74c81c169d8ff8ec06bcf','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan88','3eb14c35e9e13196fa14e7a954d4fdd9','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan89','b45b2cbe39dad720325446bfd91c0f49','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan90','a9272d95d94b613725ab6e2ad9836ca4','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan91','d5d25e7afb2b366ed5d28ca9cb270a46','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan92','e68166085818d3843de72a3c49002b3e','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan93','3c2b3c1ce2e6b52b6f5c9684ce414c03','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan94','00a1a8e1203e005f6b0be729a20519d1','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan95','e5cc8103518515adc79d74f4bed6529f','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan96','146a506ebae8c075803cf94567bf724b','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan97','556cb2958e01a53a07e456f4e0a2b346','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan98','fd0440e79843c9df67b67fdeb98d8812','1508722617','1508722617') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `c5_user` (`username`,`password`,`created_at`,`updated_at`) VALUES ('zhangsan99','b3a3ce6dd41bdc8e74c0b1c8a4859b2a','1508722617','1508722617') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006280s ]
+
+[ 2017-10-23T09:48:47+08:00 ] ::1 /thinkphp-inaction/chapter-10/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005596s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005096s ]
+
+[ 2017-10-23T09:48:53+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c5_user` LIMIT 30,30   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004796s ]
+
+[ 2017-10-23T09:48:57+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004754s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 60,30   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004685s ]
+
+[ 2017-10-23T09:49:00+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005324s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 90,30   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005393s ]
+
+[ 2017-10-23T09:49:03+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004922s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,30   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004998s ]
+
+[ 2017-10-23T09:50:00+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005725s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c5_user` LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005241s ]
+
+[ 2017-10-23T09:53:17+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004969s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `c5_user` LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005416s ]
+
+[ 2017-10-23T09:53:19+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005304s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 20,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004782s ]
+
+[ 2017-10-23T09:53:20+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005264s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `c5_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `c5_user` LIMIT 30,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004778s ]
+
+[ 2017-10-23T11:33:36+08:00 ] ::1 /thinkphp-inaction/chapter-10/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004926s ]
+
+[ 2017-10-23T11:33:53+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004934s ]
+
+[ 2017-10-23T11:35:44+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004961s ]
+
+[ 2017-10-23T11:35:48+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004998s ]
+
+[ 2017-10-23T11:37:32+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007849s ]
+
+[ 2017-10-23T11:37:37+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005179s ]
+
+[ 2017-10-23T11:38:18+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005426s ]
+
+[ 2017-10-23T11:38:41+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005396s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005901s ]
+
+[ 2017-10-23T11:55:56+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004913s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005095s ]
+
+[ 2017-10-23T11:55:56+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004952s ]
+
+[ 2017-10-23T11:55:58+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html?0.9581684779552786
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005479s ]
+
+[ 2017-10-23T11:55:59+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html?0.948095752406664
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005299s ]
+
+[ 2017-10-23T11:56:00+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html?0.698422465403225
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005031s ]
+
+[ 2017-10-23T11:56:12+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/__URL_/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005597s ]
+ERR: 非法操作:__URL_
+
+[ 2017-10-23T11:56:36+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005478s ]
+
+[ 2017-10-23T11:56:43+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/__URL_/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005404s ]
+ERR: 非法操作:__URL_
+
+[ 2017-10-23T11:56:46+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/__URL_/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005091s ]
+ERR: 非法操作:__URL_
+
+[ 2017-10-23T11:57:00+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004925s ]
+
+[ 2017-10-23T11:57:00+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005457s ]
+
+[ 2017-10-23T11:57:07+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005356s ]
+
+[ 2017-10-23T11:57:08+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004947s ]
+
+[ 2017-10-23T11:57:08+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005597s ]
+
+[ 2017-10-23T12:41:12+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/imginfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005260s ]
+
+[ 2017-10-23T12:49:51+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/crop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005185s ]
+
+[ 2017-10-23T12:50:01+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/crop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006917s ]
+
+[ 2017-10-23T12:50:05+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/crop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022106s ]
+
+[ 2017-10-23T12:52:55+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/thumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005555s ]
+
+[ 2017-10-23T12:57:02+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/water
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005438s ]
+ERR: 水印图像不存在
+
+[ 2017-10-23T12:57:37+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/water
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005144s ]
+
+[ 2017-10-23T12:58:08+08:00 ] ::1 /thinkphp-inaction/chapter-10/index.php/Home/Index/water
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005810s ]
+

@@ -1,0 +1,64 @@
+
+[ 2017-10-21T16:29:17+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/log
+INFO: INFO-record
+[ 2017-10-21T16:29:17+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/log
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+ERR: ERR-record
+
+[ 2017-10-21T16:31:13+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/dump
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-10-21T16:31:37+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/dump
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+
+[ 2017-10-21T16:31:57+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/dump
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005332s ]
+
+[ 2017-10-21T16:34:51+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/PROFILE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-10-21T16:35:39+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/PROFILE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2017-10-21T16:36:08+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/profile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-10-21T16:37:13+08:00 ] 192.168.1.54 /thinkphp-inaction/chapter-8/home/index/profile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+
+[ 2017-10-21T16:37:31+08:00 ] 192.168.1.54 /thinkphp-inaction/chapter-8/home/index/profile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-10-21T16:37:35+08:00 ] 192.168.1.54 /thinkphp-inaction/chapter-8/home/index/profile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-10-21T16:48:06+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-10-21T16:48:31+08:00 ] ::1 /thinkphp-inaction/chapter-8/home/index/db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+

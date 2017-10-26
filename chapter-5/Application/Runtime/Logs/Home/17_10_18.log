@@ -1,0 +1,795 @@
+[ 2017-10-18T14:49:47+08:00 ] 127.0.0.1 /thinkphp-inaction/chapter-5/index.php?_ijt=sa8e998mlucnlt9vdie1g588sc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013316s ]
+
+[ 2017-10-18T15:15:43+08:00 ] ::1 /thinkphp-inaction/chapter-5/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004181s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-18T15:16:03+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004240s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-18T15:18:45+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)
+
+[ 2017-10-18T15:21:31+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004074s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-10-18T15:23:27+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003936s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:27:52+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003954s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:27:53+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004725s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:53+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004430s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:53+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005269s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004747s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:27:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004023s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:28:01+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003978s ]
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+ERR: 1146:Table 'test.test_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `test_user`
+
+[ 2017-10-18T15:28:02+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004241s ]
+ERR: 1146:Table 'test.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+ERR: 1146:Table 'test.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user`
+
+[ 2017-10-18T15:28:23+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:28:24+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:28:24+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:28:24+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:28:24+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:29:50+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003953s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:29:51+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003993s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:29:52+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004551s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:29:52+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003962s ]
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+ERR: 1146:Table 'test.think_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user`
+
+[ 2017-10-18T15:42:27+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003954s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2017-10-18T15:42:28+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005079s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\Pdo
+
+[ 2017-10-18T16:54:12+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004077s ]
+
+[ 2017-10-18T16:56:49+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003912s ]
+SQL: select * from c5_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008582s ]
+
+[ 2017-10-18T16:57:02+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004048s ]
+ERR: 1146:Table 'thinkphp_inaction.c5_uxser' doesn't exist
+ [ SQL语句 ] : select * from c5_uxser
+ERR: 1146:Table 'thinkphp_inaction.c5_uxser' doesn't exist
+ [ SQL语句 ] : select * from c5_uxser
+
+[ 2017-10-18T16:57:06+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003929s ]
+SQL: select * from c5_user [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004817s ]
+
+[ 2017-10-18T16:59:55+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003902s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0070s ]
+
+[ 2017-10-18T17:00:30+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003998s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0069s ]
+
+[ 2017-10-18T17:00:32+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0080s ]
+
+[ 2017-10-18T17:02:46+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004742s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: password D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2017-10-18T17:03:23+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003972s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:03:29+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004200s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0077s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T17:03:30+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003995s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = '1' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: repassword D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+
+[ 2017-10-18T17:10:40+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004791s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: password D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1303 行.
+
+[ 2017-10-18T17:13:45+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: repassword D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+
+[ 2017-10-18T17:27:22+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:27:23+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004353s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:27:23+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004486s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:27:23+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004650s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:02+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:03+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:03+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003831s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:03+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004782s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:04+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004469s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:04+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004499s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0089s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:04+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004837s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:04+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:04+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004673s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:05+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004917s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:05+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:29:05+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2017-10-18T17:45:52+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003937s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004149s ]
+
+[ 2017-10-18T17:47:09+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004543s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: repassword D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003987s ]
+
+[ 2017-10-18T17:55:58+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004176s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0079s ]
+SQL: INSERT INTO `c5_user` (`username`,`password`) VALUES ('zhangsan','111111') [ RunTime:0.0237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004304s ]
+
+[ 2017-10-18T17:58:33+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004401s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:04:31+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004997s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsan' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:04:35+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004454s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:05:17+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003949s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:05:37+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004397s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: repassword D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1284 行.
+
+[ 2017-10-18T18:06:52+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004860s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:06:53+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003876s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-18T18:07:22+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'zhangsanxxx' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004025s ]
+
+[ 2017-10-18T18:07:54+08:00 ] ::1 /thinkphp-inaction/chapter-5/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `c5_user` [ RunTime:0.0078s ]
+NOTIC: [8] Undefined index: validate D:\UPUPW_AP5.5\htdocs\thinkphp-inaction\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `c5_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+

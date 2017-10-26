@@ -1,0 +1,144 @@
+[ 2017-10-17T11:04:03+08:00 ] ::1 /thinkphp-inaction/chapter-4/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:Test
+
+[ 2017-10-17T11:04:18+08:00 ] ::1 /thinkphp-inaction/chapter-4/test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Test
+
+[ 2017-10-17T11:42:00+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:08+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:53+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:54+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:54+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:54+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:54+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:54+08:00 ] ::1 /thinkphp-inaction/chapter-4/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:58+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:42:59+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:00+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:00+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:00+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:00+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:01+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:01+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:01+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:08+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:08+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T11:43:08+08:00 ] ::1 /thinkphp-inaction/chapter-4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Index
+
+[ 2017-10-17T15:09:06+08:00 ] ::1 /thinkphp-inaction/chapter-4/post.ht
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Post
+
+[ 2017-10-17T15:09:10+08:00 ] ::1 /thinkphp-inaction/chapter-4/post
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001272s ]
+ERR: 无法加载模块:Post
+
