@@ -6,7 +6,7 @@
  * Time: 10:27
  */
 
-class TestController
+class TestController extends \Think\Controller
 {
     public function postData()
     {
