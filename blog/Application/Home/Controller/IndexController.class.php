@@ -5,7 +5,7 @@ use Common\Model\ArticleCategoryViewModel;
 use Think\Controller;
 use Think\Model;
 use Think\Page;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 class IndexController extends Controller
 {
 	public function index()

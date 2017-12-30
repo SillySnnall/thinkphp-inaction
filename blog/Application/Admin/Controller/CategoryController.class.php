@@ -8,7 +8,7 @@
 namespace Admin\Controller;
 
 use Think\Model;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 class CategoryController extends BaseController
 {
 	public function index()

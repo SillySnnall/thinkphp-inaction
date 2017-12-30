@@ -9,7 +9,7 @@ namespace Admin\Controller;
 
 use Think\Model;
 use Think\Page;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 class CommentController extends BaseController
 {
 	public function index()

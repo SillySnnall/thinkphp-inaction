@@ -11,7 +11,7 @@ use Common\Model\ArticleCategoryViewModel;
 use Org\Net\Http;
 use Think\Model;
 use Think\Page;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 class ArticleController extends BaseController
 {
 	public function index()

@@ -8,7 +8,7 @@
 namespace Admin\Controller;
 
 use Think\Controller;
-
+header("Content-type: text/html; charset=utf-8");// 解决乱码问题
 class BaseController extends Controller
 {
 	protected function _initialize()
