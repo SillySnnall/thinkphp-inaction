@@ -1,5 +1,5 @@
 <?php
-
+namespace Test\Controller;
 use Think\Controller;
 
 /**
