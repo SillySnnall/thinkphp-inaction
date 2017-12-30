@@ -13,8 +13,9 @@ class TestController extends Controller
 {
     public function postData()
     {
-        $id = $_POST['id'];
-        $name = $_POST['name'];
-        $this->ajaxReturn("ID:" + $id + "NAME:" + $name, '成功', 1);
+        echo "sasasasasasa";
+//        $id = $_POST['id'];
+//        $name = $_POST['name'];
+//        $this->ajaxReturn("ID:" + $id + "NAME:" + $name, '成功', 1);
     }
 }
