@@ -22,10 +22,11 @@ class TestController extends Controller
         $testBean = new TestBean();
         $testBean->id = $_POST['id'];
         $testBean->name = $_POST['name'];
-
+        $ip = get_client_ip();
         $arr = array(
             'id' => $testBean->id,
-            'name' => $testBean->name
+            'name' => $testBean->name,
+            'ip' => $ip,
         );
         $this->ajaxReturn($arr, 'XML', 1);
     }
