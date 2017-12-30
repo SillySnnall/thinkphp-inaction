@@ -1,4 +1,7 @@
 <?php
+
+use Think\Controller;
+
 /**
  * Created by PhpStorm.
  * User: SillySnnall
@@ -6,7 +9,7 @@
  * Time: 10:27
  */
 
-class TestController extends \Think\Controller
+class TestController extends Controller
 {
     public function postData()
     {
