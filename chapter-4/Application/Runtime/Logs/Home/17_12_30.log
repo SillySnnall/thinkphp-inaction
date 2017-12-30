@@ -1,0 +1,27 @@
+[ 2017-12-30T13:14:12+08:00 ] ::1 /thinkphp-inaction/chapter-4/home/test/postData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+ERR: 非法操作:postData
+
+[ 2017-12-30T13:26:47+08:00 ] ::1 /thinkphp-inaction/chapter-4/home/test/postData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+ERR: 非法操作:postData
+
+[ 2017-12-30T13:33:02+08:00 ] ::1 /thinkphp-inaction/chapter-4/home/test/postDataAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+ERR: 非法操作:postDataAction
+
